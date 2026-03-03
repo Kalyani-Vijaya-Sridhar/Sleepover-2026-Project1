@@ -1,0 +1,61 @@
+/*GLOBAL STYLING*/
+body {
+  margin: 0px;
+}
+main {
+  margin: 30px;
+}
+
+/*Header Styling*/
+hgroup {
+  text-align: center;
+  border: solid 2px black;
+  padding: 100px;
+  background-color: paleturquoise;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.subtitle {
+  font-size: 20px;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Navigation Bar Styling*/
+.navbar ul {
+  list-style-type: none;
+  background-color: mediumturquoise;
+  padding: 0px;
+  margin: 0px; 
+  overflow: hidden; 
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: grey;
+}
+.navbar li {
+  float: left;
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Footer Styling*/
+footer {
+  text-align: center;
+  background-color: rgb(174, 201, 203);
+  padding: 1px;
+  margin: 0px;
+}
